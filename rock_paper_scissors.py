@@ -1,11 +1,12 @@
-""""
-Rock smashes scissors.
-Paper covers rock.
-Scissors cut paper.
+"""
+Project: Rock, Paper, Scissors Game
+Version: 1.0.0
+Author: AC Rahl
+Description: 
+    A terminal-based "Best of 3" Rock, Paper, Scissors game. 
+    Implements a control flow game loop with user-exit capability, 
+    input sanitization, and decoupled logic to support unit testing.
 
-Rock vs paper-> paper wins
-Rock vs scissor-> Rock wins
-paper vs scissor-> scissor wins.
 """
 import random
 
